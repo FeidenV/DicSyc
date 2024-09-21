@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 325: expected 'label_name' not found.
-    jump
-        ^
+File "game/script.rpy", line 108: end of line expected.
+    scene bg behind bus station the spaceport
+                        ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sun Sep 15 13:53:37 2024
+Sat Sep 21 12:11:28 2024
