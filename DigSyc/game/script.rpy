@@ -37,7 +37,18 @@ image sanya_ungame = "Sprites/Sasha/Sanya_ungame@1.2.png"
 
 label start:
 
-    "TEST TIME TELEPORT"
+    show text "ROBOTO-REGULAR" at truecenter
+    with dissolve
+    pause 1
+    hide text
+    with dissolve
+
+    show text "TEST TIME TELEPORT" at truecenter
+    with dissolve
+    pause 1
+    hide text
+    with dissolve
+    
     
     menu:
 
