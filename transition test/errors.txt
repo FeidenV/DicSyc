@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 31: end of line expected.
+    show text "КЛИК" style blackcock at truecenter 
+                     ^
+
+Ren'Py Version: Ren'Py 8.3.2.24090902
+Wed Sep 25 11:07:13 2024
