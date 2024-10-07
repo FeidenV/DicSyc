@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 108: end of line expected.
-    scene bg behind bus station the spaceport
-                        ^
+File "game/script.rpy", line 195: Line is indented, but the preceding pause statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    linear 0.5 xpos 50 ypos 0 zpos -1
+    ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sat Sep 21 12:11:28 2024
+Wed Oct  2 13:36:43 2024
