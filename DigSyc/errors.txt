@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 195: Line is indented, but the preceding pause statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    linear 0.5 xpos 50 ypos 0 zpos -1
-    ^
+File "game/script.rpy", line 441: expected ':' not found.
+    label test
+              ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Wed Oct  2 13:36:43 2024
+Tue Oct  8 13:09:38 2024
