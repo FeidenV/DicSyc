@@ -116,7 +116,7 @@ label Part_1:
     
     "Но, тем не менее, кажется, существо хоть немного, да учло, что лучше держать меня на расстоянии."
 
-    scene bg abanded space port
+    scene bg behind_bus_station_the spaceport
     with fade
 
     camera: 
