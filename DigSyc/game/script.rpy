@@ -11,7 +11,7 @@ define smith = Character('Кузнец', color="#dbbc62")
 
 #ГОВНЮКИ
 define lizard = Character('Ящер', color="#0f730a")
-image lizard = "Sprites/MOBS/intruder@1.2.png"
+image lizard = "Sprites/MOBS/intruder.png"
 
 define k = Character('Кирилл', color="#e1701e")
 image kir= "kira_speak.png"
@@ -123,7 +123,7 @@ label Part_1:
         perspective True
 
     show lizard:
-        zpos -400 xpos -80
+        zpos 0 ypos 1 xpos 1
     with dissolve
 
     show fedor_fight at right 
@@ -180,8 +180,8 @@ label Part_1:
         perspective True
     
     show lizard:
-        xpos 400 ypos 100 zpos -400 
-    with dissolve
+        zpos 0 ypos 1 xpos 1
+
     show fedor_fight onlayer secs:
         xpos 850 ypos 0 zpos 0
     with dissolve
@@ -197,14 +197,13 @@ label Part_1:
     #Столкновение ящера и саши
     show sanya_game:
         xpos 1 ypos 0 zpos 0
-        linear 0.25 xpos 0.4 ypos 0 zpos -200
-    pause 0.25
+        linear 0.25 xpos 0.3 ypos 0 zpos 0
 
     scene slash onlayer fight_scene
     with hpunch
     scene onlayer fight_scene
     show sanya_game:
-        xpos 0.4 ypos 0 zpos -200
+        xpos 0.3 ypos 0 zpos -200
         linear 0.25 xpos 1 ypos 0 zpos 0
 
     ###Конец экспериментов
