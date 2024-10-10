@@ -191,6 +191,7 @@ label Part_1:
     
     show sanya_game:
         xpos 1 ypos 0 zpos 0
+    with dissolve
 
     "Металлический ящер противно зашипел и рванулся вперед, и уже через мгновение оказался перед нами. Друг принял на себя удар быстрых когтей, я же отскочил влево, и быстро прорубил лапу чудовища в локте."
 
@@ -233,7 +234,7 @@ label Part_1:
     with fade
     
     #СЦЕНА С БЕТОНОМ
-    scene bg behind_bus_station_the spaceport
+    scene bg behind_bus_station_day
     with fade
 
     "Я с облегчением выдохнул и осел на пол, ноги уже не держали."
@@ -250,7 +251,13 @@ label Part_1:
 
     "Вдруг меня накрыла тень и от нее приятно повеяло холодом. Я поднял голову и увидел, что Саша подошел ко мне, закрыв собой солнце."
 
+    show sanya_game at left
+    with dissolve
+
     s "Воды дать?"
+
+    show fedor_game at right
+    with dissolve
 
     f "Не, спасибо, у меня своя есть. "
 
@@ -290,6 +297,7 @@ label Part_1:
 
     "Со странным гудящим звуком игра резко «сняла» с меня снаряжение, окутав все синими помехами."
     
+    hide fedor_game
     show fedor_ungame at right 
     with dissolve
     
@@ -297,6 +305,7 @@ label Part_1:
     
     "Остались только иконки меню самого Ретранслятора."
 
+    hide sanya_game
     show sanya_ungame at left 
     with dissolve
 
